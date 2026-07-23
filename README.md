@@ -7,7 +7,7 @@
 
 ---
 
-## 🧩 Lista de Componentes (BOM)
+## 🧩 Lista de Componentes
 
 ### Placa e Circuito Principal
 | Qtd | Componente | Descrição / Detalhes |
