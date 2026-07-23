@@ -21,7 +21,6 @@
 | 1 | Resistor 4.7kΩ | Pull-up do sensor de temperatura |
 | 1 | Resistor 10kΩ | Pull-down do MOSFET / botão |
 | 2 | Resistores 220Ω | Limitadores para os LEDs |
-| - | Barra de Pinos Fêmea | Soquete para acoplamento do Arduino e jumpers |
 | 2 | Conectores 1x03 | Conexão de sensores/periféricos |
 | 1 | Conector 1x06 | Conexão de expansão |
 
