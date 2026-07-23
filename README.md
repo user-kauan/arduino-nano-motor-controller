@@ -1,35 +1,35 @@
 <p align="center">
-  <img src="PCB.png" alt="Foto da PCB montada" width="600"/>
+  <img src="PCB.png" alt="Assembled PCB photo" width="600"/>
 </p>
 
-## 🛠️ Especificações e Limites da Placa
+## 🛠️ Specifications & Board Limits
 
-- **Tensão Máxima:** 12V DC.
-- **Corrente Máxima do Motor:** Suporta até **3A em stall**.
-- **Proteções:** Soquete para **fusível cilíndrico 5x20mm** (Ação Retardada) e diodo de proteção **1N5822**.
-- **Chaveamento do Motor:** MOSFET **IRLZ44N**.
+- **Maximum Voltage:** 12V DC.
+- **Maximum Motor Current:** Supports up to **3A stall current**.
+- **Protections:** Socket for a **5x20mm cylindrical fuse** (Slow-Blow) and a **1N5822** protection diode.
+- **Motor Switching:** **IRLZ44N** MOSFET.
 
 ---
 
-## 🧩 Lista de Componentes
+## 🧩 Bill of Materials (BOM)
 
-### Placa e Circuito Principal
-| Qtd | Componente | Descrição |
+### Main Board & Circuit
+| Qty | Component | Description |
 |---|---|---|
-| 1 | Arduino Nano V3 | Microcontrolador central |
-| 1 | MOSFET IRLZ44N | Controle PWM do motor |
-| 1 | Diodo 1N5822 | Diodo de roda-livre / proteção |
-| 2 | Terminal Block 5mm (2 pinos) | Entrada de energia 12V e motor |
-| 1 | Soquete para Fusível | Porta-fusível 5x20mm |
-| 2 | LED 5mm | LEDs de sinalização / status |
-| 1 | Resistor 4.7kΩ | Pull-up do sensor de temperatura |
-| 1 | Resistor 10kΩ | Pull-down do MOSFET |
-| 2 | Resistores 220Ω | Limitadores para os LEDs |
-| 2 | Conectores 1x03 | Conexão do Sensor Hall e DS18B20 |
-| 1 | Conector 1x06 | Conexão do INA219 |
+| 1 | Arduino Nano V3 | Main microcontroller |
+| 1 | IRLZ44N MOSFET | Motor PWM control |
+| 1 | 1N5822 Diode | Flyback / protection diode |
+| 2 | 5mm Terminal Block (2-pin) | 12V power input & motor output |
+| 1 | Fuse Socket | 5x20mm fuse holder |
+| 2 | 5mm LED | Status / signaling LEDs |
+| 1 | 4.7kΩ Resistor | Temperature sensor pull-up |
+| 1 | 10kΩ Resistor | MOSFET pull-down |
+| 2 | 220Ω Resistors | Current-limiting resistors for LEDs |
+| 2 | 1x03 Female Headers | Hall Sensor & DS18B20 connectors |
+| 1 | 1x06 Female Header | INA219 Module connector |
 
-### Sensores Suportados
-Para usar todas as funções da placa, conecte os seguintes módulos externos:
-- **Temperatura:** Sensor **DS18B20** (1-Wire, utiliza o resistor de 4.7kΩ de pull-up da placa).
-- **Corrente e Tensão:** Módulo **INA219** (Comunicação I2C).
-- **Rotação / RPM:** Sensor **Hall de 3 pinos** (Medição de velocidade).
+### Supported External Sensors
+To enable all board features, connect the following external modules:
+- **Temperature:** **DS18B20** Sensor (1-Wire, utilizes the onboard 4.7kΩ pull-up resistor).
+- **Current & Voltage:** **INA219** Module (I2C Communication).
+- **Rotation / RPM:** **3-Pin Hall Sensor** (Speed measurement).
