@@ -1,3 +1,9 @@
+## 📷 Foto da Placa
+
+<p align="center">
+  <img src="PCB.png" alt="Foto da PCB montada" width="600"/>
+</p>
+
 ## 🛠️ Especificações e Limites da Placa
 
 - **Tensão Máxima:** 12V DC.
