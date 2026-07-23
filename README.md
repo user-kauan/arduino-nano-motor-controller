@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="PCB.png" alt="Assembled PCB photo" width="600"/>
+  <img src="3D_View_PCB.png" alt="Assembled PCB photo" width="600"/>
+</p>
+
+<p align="center">
+  <img src="SCH.png" alt="Assembled PCB photo" width="600"/>
 </p>
 
 ## 🛠️ Specifications & Board Limits
