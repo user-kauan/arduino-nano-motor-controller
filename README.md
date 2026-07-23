@@ -11,7 +11,7 @@
 
 ---
 
-## 🧩 Bill of Materials (BOM)
+## 🧩 Bill of Materials
 
 ### Main Board & Circuit
 | Qty | Component | Description |
