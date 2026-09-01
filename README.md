@@ -60,7 +60,7 @@ A placa controla a velocidade de um motor DC via PWM, monitora suas condições 
 
 | Sensor | Função | Comunicação |
 |---|---|---|
-| DS18B20 | Temperatura 
+| DS18B20 | Temperatura | 1-Wire
 | INA219 | Corrente, tensão e potência | I2C |
 | Sensor Hall (3 pinos) | Rotação / RPM | Digital |
 
