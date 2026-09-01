@@ -1,21 +1,8 @@
 /*
-  Controle de Motor DC via MOSFET - Arduino Nano
-  Baseado no esquema fornecido (SCH.png)
-  Versao completa - sem sensor Hall (nao conectado)
-
-  Sensores:
-   - DS18B20 (Temperatura)    -> D3
-   - INA219 (Corrente/Tensão) -> I2C (A4=SDA / A5=SCL)
-     (requer resistores de pull-up de 4,7k em SDA e SCL para 5V,
-      caso o modulo nao tenha pull-up proprio)
-
   Indicadores:
    - LED D11 -> acende quando o motor esta RODANDO
    - LED D10 -> acende quando o motor esta PARADO
                 (pisca rapido se parado por falha de seguranca)
-
-  Atuador:
-   - Motor DC via MOSFET (Q1) -> D9 (PWM no gate, R1=220R série, R2=10k pull-down)
 
   Bibliotecas necessárias (Gerenciador de Bibliotecas):
    - OneWire
